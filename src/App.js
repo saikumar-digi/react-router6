@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {  Routes, Route } from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
 import Layout from './components/Layout';
@@ -11,7 +11,6 @@ import Reviews from './pages/Reviews';
 import HostLayout from './components/HostLayout';
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -26,7 +25,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+
   );
 }
 

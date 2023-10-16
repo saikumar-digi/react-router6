@@ -66,3 +66,18 @@ footer {
   font-weight: 500;
 }
 
+.vans-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+}
+
+.van-card {
+  margin-left: 50px; 
+  margin-top: 30px; 
+  width: 20%; 
+  box-sizing: border-box; 
+  cursor: pointer;
+}
+
+

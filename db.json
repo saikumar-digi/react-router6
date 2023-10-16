@@ -1,0 +1,46 @@
+{
+  "Vans": [
+    {
+      "id": "1",
+      "name": "Modern",
+      "image": "/assets/images/download.jpeg",
+      "price/day": 50.00,
+      "details": "Spacious and comfortable van for your journey."
+    },
+    {
+      "id": "2",
+      "name": "Explore",
+      "image": "/assets/images/eduardo-soares-y39ElnSaZxc-unsplash (1).jpg",
+      "price/day": 45.00,
+      "details": "Compact van for city travel."
+    },
+    {
+      "id": "3",
+      "name": "Luxury",
+      "image": "/assets/images/download.jpeg",
+      "price/day": 60.00,
+      "details": "Luxurious van with extra features."
+    },
+    {
+      "id": "4",
+      "name": "Economical",
+      "image": "/assets/images/download.jpeg",
+      "price/day": 55.00,
+      "details": "Economical van for all your needs."
+    },
+    {
+      "id": "5",
+      "name": "Modern",
+      "image": "/assets/images/download.jpeg",
+      "price/day": 50.00,
+      "details": "Spacious and comfortable van for your journey."
+    },
+    {
+      "id": "6",
+      "name": "Explore",
+      "image": "/assets/images/eduardo-soares-y39ElnSaZxc-unsplash (1).jpg",
+      "price/day": 45.00,
+      "details": "Compact van for city travel."
+    }
+  ]
+}
