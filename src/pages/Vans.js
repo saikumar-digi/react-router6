@@ -26,8 +26,8 @@ if (isError) {
     <h1>Your Listed Vans</h1>
     <div className="vans-list">
       {vans.map((van) => (
-        <div key={van.id} className="van-card">
-          <img src={van.image} alt={van.name} />
+        <div key={van.id} className="van-card"  onClick={()=> navigate(`${van.id}`)}>
+          <img src={van.image} alt={van.name} width="120px"/>
           <div className="van-details">
             <h2>{van.name}</h2>
             <p>Price per day: ${van['price/day']}</p>
